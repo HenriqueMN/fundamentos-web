@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- Tag structure: <tag_name attribute = "attribute_value"></tag> -->
+<html lang="pt-br">
+	<!-- <head></head>: defines what the browser will load before the content of the page -->
+	<head>
+		<!-- <meta/>: informations that won't be loaded for the user but are important for the browser, like character encoding and responsivity to different device sizes -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <title> text </title>: defines the title of the html file (the tab name) -->
+		<title>Home</title>
+	</head>
+	<!-- <body></body>: defines the content the page will load-->
+	<body>
+		<!-- <ul></ul>: unordered list, it starts and unordered list -->
+		<ul>
+			<!-- <li> text </li>: list item, it inserts an item on the list -->
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="contato.html">Contato</a>
+			</li>
+		</ul>
+		<!-- <h1~h6> text </h1~h6>: headings, tags that change size and boldness of what's inside them. h1 is used for titles and can only appear once for each page -->
+		<h1>Hello, World!</h1>
+		<h2>Hello, World!</h2>
+		<h3>Hello, World!</h3>
+		<h4>Hello, World!</h4>
+		<h5>Hello, World!</h5>
+		<h6>Hello, World!</h6>
+		<!-- <p> text </p>: paragraph, creates a paragraph with the text inside it -->
+		<p>Módulo 03</p>
+		<p>Uma imagem de uma bela cachoeira</p>
+		<!-- <img src="image_link/path" alt="alt_text_for_screen_reader"/>: image, inserts the image specified on the src path with the alt text being necessary for both screen readers and for the cases the image doesn't load properly -->
+		<img
+			src="https://fazendavoltadaserra.com.br/wp-content/uploads/2023/02/encontro.jpg"
+			alt="uma linda cachoeira"
+		/>
+		<p>Minha música favorita</p>
+		<!-- <iframe></iframe>: inline frame, it inserts another html content inside the page with several customizable attributes -->
+		<iframe
+			width="560"
+			height="315"
+			src="https://www.youtube.com/embed/0k2Zzkw_-0I?si=k6ZKlFU7RbbkoF24"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen
+		></iframe>
+	</body>
+</html>
