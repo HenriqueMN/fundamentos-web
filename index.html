@@ -7,12 +7,13 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- <title> text </title>: defines the title of the html file (the tab name) -->
+		<link rel="stylesheet" href="./css/style.css" />
 		<title>Home</title>
 	</head>
 	<!-- <body></body>: defines the content the page will load-->
 	<body>
 		<!-- <ul></ul>: unordered list, it starts and unordered list -->
-		<ul>
+		<ul id="menu">
 			<!-- <li> text </li>: list item, it inserts an item on the list -->
 			<li>
 				<a href="index.html">Home</a>
@@ -29,23 +30,37 @@
 		<h5>Hello, World!</h5>
 		<h6>Hello, World!</h6>
 		<!-- <p> text </p>: paragraph, creates a paragraph with the text inside it -->
-		<p>Módulo 03</p>
-		<p>Uma imagem de uma bela cachoeira</p>
-		<!-- <img src="image_link/path" alt="alt_text_for_screen_reader"/>: image, inserts the image specified on the src path with the alt text being necessary for both screen readers and for the cases the image doesn't load properly -->
-		<img
-			src="https://fazendavoltadaserra.com.br/wp-content/uploads/2023/02/encontro.jpg"
-			alt="uma linda cachoeira"
-		/>
-		<p>Minha música favorita</p>
-		<!-- <iframe></iframe>: inline frame, it inserts another html content inside the page with several customizable attributes -->
-		<iframe
-			width="560"
-			height="315"
-			src="https://www.youtube.com/embed/0k2Zzkw_-0I?si=k6ZKlFU7RbbkoF24"
-			title="YouTube video player"
-			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			allowfullscreen
-		></iframe>
+		<h3 class="center">Módulo 03</h3>
+		<div class="container">
+			<div class="p-30">
+				<p class="center">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Dolorem odio soluta quas architecto incidunt praesentium
+					optio maiores quasi, ipsa veniam et cupiditate neque at
+					libero. Quaerat expedita mollitia repellendus minus.
+				</p>
+			</div>
+			<div>
+				<!-- <img src="image_link/path" alt="alt_text_for_screen_reader"/>: image, inserts the image specified on the src path with the alt text being necessary for both screen readers and for the cases the image doesn't load properly -->
+				<img
+					class="br-50 wh-300 p-30"
+					src="https://fazendavoltadaserra.com.br/wp-content/uploads/2023/02/encontro.jpg"
+					alt="uma linda cachoeira"
+				/>
+			</div>
+		</div>
+		<p class="center">Minha música favorita</p>
+		<div class="container">
+			<!-- <iframe></iframe>: inline frame, it inserts another html content inside the page with several customizable attributes -->
+			<iframe
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/0k2Zzkw_-0I?si=k6ZKlFU7RbbkoF24"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			></iframe>
+		</div>
 	</body>
 </html>
